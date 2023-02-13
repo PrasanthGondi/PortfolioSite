@@ -19,10 +19,10 @@ function App() {
         <nav className='text-[#FFFFFF] font-sans mb-[160px] xl:mb-[160px] lg:mb-[150px] md:mb-[140px] xs:mb-[120px] xm:mb-[125px] xsl:mb-[130px] sm:mb-[135px]'>
           <div className='flex justify-between xs:flex xs:flex-col sm:flex-row'>
             <div className='text-[18px] xs:text-[22px] xm:text-[24px] xsl:text-[25px] sm:text-[26px] md:text-[28px] lg:text-[30px] xl:text-[35px] flex m-5 bg-[#DD3B58] rounded-full ml-5 pb-2.5 pl-8 pr-8 bg-opacity-50 border-4 border-[#DD3B58] xs:pl-6 xs:pr-6 xs:pb-2 xsl:pb-2.5 justify-center'>
-              <img src='https://media.discordapp.net/attachments/990816866618470440/1074205369682907166/301803637_506902801440735_987699678916294777_n-removebg-preview.png' className='w-10 h-10 mt-[12px] xs:w-8 xs:h-8 xl:w-10 xl:h-10 md:h-9 md:w-9 md:mt-[9px] xl:mt-[12px] xs:mt-[6px]'/>
-            <h1 className='mt-1 ml-1.5'>Prasanth Gondi</h1>
+              <img src='https://media.discordapp.net/attachments/990816866618470440/1074205369682907166/301803637_506902801440735_987699678916294777_n-removebg-preview.png' className='w-10 h-10 mt-[12px] xs:w-8 xs:h-8 xl:w-10 xl:h-10 md:h-9 md:w-9 md:mt-[11px] xl:mt-[12px] xs:mt-[7px] xm:mt-[8px] xsl:mt-[9px] sm:mt-[10px]'/>
+            <h1 className='mt-1 ml-1.5 xs:font-medium sm:font-normal xs:mt-1.5 sm:mt-1.5'>Prasanth Gondi</h1>
             </div>
-            <ul className='flex justify-around m-5 mt-8 text-[25px] font-medium xl:text-[25px] xl:mt-8 xl:m-5 lg:text-[22px] md:text-[20px] xs:text-[16px] xm:text-[17px] xsl:text-[19px] sm:text-[20px] xs:mt-0 sm:mt-8 xs:justify-between'>
+            <ul className='flex justify-around m-5 mt-8 text-[25px] font-medium xs:font-semibold sm:font-medium xl:text-[25px] xl:mt-8 xl:m-5 lg:text-[22px] md:text-[20px] xs:text-[16px] xm:text-[17px] xsl:text-[19px] sm:text-[20px] xs:mt-0 sm:mt-8 xs:justify-between'>
               <li className='mr-10 underline decoration-[#DD3B58] underline-offset-8 decoration-4 xs:ml-5 sm:ml-0'>
                 <a href='#skills'>Skills</a>
               </li>
@@ -33,7 +33,7 @@ function App() {
           </div>
         </nav>
         <div className='w-full mb-[280px] xl:mb-[280px] lg:mb-[250px] md:mb-[200px] sm:mb-[180px] xsl:mb-[150px] xs:mb-[130px]'>
-          <h1 className='text-white text-[40px] text-center font-medium md:text-[32px] lg:text-[36px] sm:text-[35px] xsl:text-[33px] xs:text-[31px]'>Full-Stack Web Developer</h1>
+          <h1 className='text-white text-[40px] text-center font-medium md:text-[32px] lg:text-[36px] sm:text-[35px] xsl:text-[33px] xs:text-[31px] xs:pl-1 xs:pr-1 xsl:pl-0 xsl:pr-0'>Full-Stack Web Developer</h1>
           <div className='flex justify-center'>
             <MdOutlineMyLocation className='text-white w-5 h-5 mt-[25px] mr-2 xs:mt-[22px] xs:mr-1'/>
             <p className='text-white text-[20px] md:text-[19px] lg:text-[19px] sm:text-[18px] xsl:text-[17px] xs:text-[16px] font-medium mt-5'>Guntur, Andhra Pradesh, India</p>
