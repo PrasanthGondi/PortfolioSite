@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import {Link} from 'react-scroll'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import { MdOutlineMyLocation } from 'react-icons/md';
@@ -24,10 +25,12 @@ function App() {
             </div>
             <ul className='flex justify-around m-5 mt-8 text-[25px] font-medium xs:font-semibold sm:font-medium xl:text-[25px] xl:mt-8 xl:m-5 lg:text-[22px] md:text-[20px] xs:text-[16px] xm:text-[17px] xsl:text-[19px] sm:text-[20px] xs:mt-0 sm:mt-8 xs:justify-between'>
               <li className='mr-10 underline decoration-[#DD3B58] underline-offset-8 decoration-4 xs:ml-5 sm:ml-0'>
-                <a href='#skills'>Skills</a>
+                {/* <a href='#skills'>Skills</a> */}
+                <Link to='skills' spy={true} smooth={true} duration={400}>Skills</Link>
               </li>
               <li className='mr-5 underline decoration-[#DD3B58] underline-offset-8 decoration-4'>
-                <a href='#projects'>Projects</a>
+                {/* <a href='#projects'>Projects</a> */}
+                <Link to='projects' spy={true} smooth={true} duration={400}>Work</Link>
               </li>
             </ul>
           </div>
