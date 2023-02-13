@@ -14,9 +14,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='w-full overflow-hidden'>
+    <div className='w-full overflow-hidden fontclass'>
       <div className='bg-[url(https://i.imgur.com/fHdmMyl.jpg)] w-full min-h-screen overflow-hidden overflow-y-hidden bg-no-repeat bg-cover bg-center'>
-        <nav className='text-[#FFFFFF] font-sans mb-[160px] xl:mb-[160px] lg:mb-[150px] md:mb-[140px] xs:mb-[120px] xm:mb-[125px] xsl:mb-[130px] sm:mb-[135px]'>
+        <nav className='text-[#FFFFFF] fontclass mb-[160px] xl:mb-[160px] lg:mb-[150px] md:mb-[140px] xs:mb-[120px] xm:mb-[125px] xsl:mb-[130px] sm:mb-[135px]'>
           <div className='flex justify-between xs:flex xs:flex-col sm:flex-row'>
             <div className='text-[18px] xs:text-[22px] xm:text-[24px] xsl:text-[25px] sm:text-[26px] md:text-[28px] lg:text-[30px] xl:text-[35px] flex m-5 bg-[#DD3B58] rounded-full ml-5 pb-2.5 pl-8 pr-8 bg-opacity-50 border-4 border-[#DD3B58] xs:pl-6 xs:pr-6 xs:pb-2 xsl:pb-2.5 justify-center'>
               <img src='https://media.discordapp.net/attachments/990816866618470440/1074205369682907166/301803637_506902801440735_987699678916294777_n-removebg-preview.png' className='w-10 h-10 mt-[12px] xs:w-8 xs:h-8 xl:w-10 xl:h-10 md:h-9 md:w-9 md:mt-[11px] xl:mt-[12px] xs:mt-[7px] xm:mt-[8px] xsl:mt-[9px] sm:mt-[10px]'/>
