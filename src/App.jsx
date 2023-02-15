@@ -184,17 +184,17 @@ function App() {
         <div className='h-10'>
 
         </div>
-        <div className='text-white bg-[#FA4458] rounded-2xl ml-5 w-[60%] xl:w-[60%] lg:w-[68%] md:w-[75%] xs:w-[90%] font-medium p-5 bg-opacity-70'>
+        <div className='text-white bg-[black] rounded-2xl ml-5 w-[60%] xl:w-[60%] lg:w-[68%] md:w-[75%] xs:w-[90%] font-medium p-5 bg-opacity-25'>
           <div className='flex'>
-          <h1 className='text-[25px] xl:text-[25px] lg:text-[23px] md:text-[20px] sm:text-[19px] xsl:text-[18px] xs:text-[17px] mb-3 underline decoration-[#6C0164] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>NxtTrends E-Commerce Site </h1><a href='https://pgreactecomsite.ccbp.tech/' target="_blank"><BsArrowUpRight className='h-6 w-6 mt-2 ml-2 xs:h-4 xs:w-4 sm:h-6 sm:w-6 xs:mt-1 sm:mt-1.5 md:2'/></a></div>
-          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-4 underline decoration-[#6C0164] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Purpose: Part of My Certification from NxtWave</p>
-          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-4 underline decoration-[#6C0164] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>My Contributions: Built from Scratch (FrontEnd)</p>
+          <h1 className='text-[25px] xl:text-[25px] lg:text-[23px] md:text-[20px] sm:text-[19px] xsl:text-[18px] xs:text-[17px] mb-3 underline decoration-[#F8A985] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>NxtTrends E-Commerce Site </h1><a href='https://pgreactecomsite.ccbp.tech/' target="_blank"><BsArrowUpRight className='h-6 w-6 mt-2 ml-2 xs:h-4 xs:w-4 sm:h-6 sm:w-6 xs:mt-1 sm:mt-1.5 md:2'/></a></div>
+          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-4 underline decoration-[#F8A985] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Purpose: Part of My Certification from NxtWave</p>
+          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-4 underline decoration-[#F8A985] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>My Contributions: Built from Scratch (FrontEnd)</p>
           <div className='flex xs:flex-col xsl:flex-row'>
           <div className='flex flex-col'>
           {/* <p className='text-[20px] mb-2 underline decoration-[#6C0164] underline-offset-8 decoration-4'>My Contributions: Built from Scratch (FrontEnd)</p> */}
           </div>
           <div className='flex flex-col'>
-          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#6C0164] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Built using: </p>
+          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#F8A985] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Built using: </p>
           <ul className='text-[18px] xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] xsl:text-[14px] xs:text-[13px] list-disc pl-5 mb-2'>
             <li className='mb-3'>ReactJS</li>
             <li className='mb-3'>React Icons</li>
@@ -204,7 +204,7 @@ function App() {
           </ul>
           </div>
           <div className='flex flex-col ml-5 xs:ml-0 sm:ml-5'>
-          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#6C0164] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Login Credentials</p>
+          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#F8A985] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Login Credentials</p>
           <ul className='text-[18px] xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] xsl:text-[14px] xs:text-[13px] list-disc pl-5 mb-2'>
             <li className='mb-3'>Username: rahul</li>
             <li className='mb-3'>Password: rahul@2021</li>
@@ -216,11 +216,11 @@ function App() {
           </div>
         </div>
         <div className='w-full flex justify-end pr-5 pb-5 xs:justify-center sm:justify-end xs:pr-0 sm:pr-5'>
-        <div className='text-white bg-[#FA4458] rounded-2xl mt-5 ml-5 w-[60%] xl:w-[60%] lg:w-[68%] md:w-[75%] xs:w-[90%] font-medium p-5 pt-3 bg-opacity-70 xs:ml-0 sm:ml-5'>
+        <div className='text-white bg-[black] rounded-2xl mt-5 ml-5 w-[60%] xl:w-[60%] lg:w-[68%] md:w-[75%] xs:w-[90%] font-medium p-5 pt-3 bg-opacity-25 xs:ml-0 sm:ml-5'>
           <div className='flex'>
-          <h1 className='text-[25px] xl:text-[25px] lg:text-[23px] md:text-[20px] sm:text-[19px] xsl:text-[18px] xs:text-[17px] mb-3 underline decoration-[#6C0164] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Countries and Continents</h1><a href='https://prasanthgondi.github.io/GraphQl-TypeScript-Continents/' target='_blank'><BsArrowUpRight className='h-5 w-5 mt-2.5 ml-2 xs:h-4 xs:w-4 sm:h-6 sm:w-6 xs:mt-1 sm:mt-1.5 md:mt-1.5'/></a></div>
-          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#6C0164] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Test for my current position</p>
-          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#6C0164] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Built using: </p>
+          <h1 className='text-[25px] xl:text-[25px] lg:text-[23px] md:text-[20px] sm:text-[19px] xsl:text-[18px] xs:text-[17px] mb-3 underline decoration-[#F33170] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Countries and Continents</h1><a href='https://prasanthgondi.github.io/GraphQl-TypeScript-Continents/' target='_blank'><BsArrowUpRight className='h-5 w-5 mt-2.5 ml-2 xs:h-4 xs:w-4 sm:h-6 sm:w-6 xs:mt-1 sm:mt-1.5 md:mt-1.5'/></a></div>
+          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#F33170] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Test for my current position</p>
+          <p className='text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#F33170] underline-offset-8 decoration-4 xs:underline-offset-4 sm:underline-offset-8'>Built using: </p>
           <ul className='text-[18px] xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] xsl:text-[14px] xs:text-[13px] list-disc pl-5'>
             <li className='mb-3 mt-2'>TypeScript</li>
             <li className='mb-3'>GraphQL</li>
