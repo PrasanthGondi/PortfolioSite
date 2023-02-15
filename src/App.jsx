@@ -119,10 +119,10 @@ function App() {
             <SiOpenai className='mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:h-8 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1'/>
             <h1 className='text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]'>ChatGPT</h1>
           </li>
-          <li className='flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12'>
+          {/* <li className='flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12'>
             <GrGoogle className='mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:h-8 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1'/>
             <h1 className='text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]'>Googling</h1>
-          </li>
+          </li> */}
         </ul>
         <div className='w-full flex justify-center'>
         <a href='https://drive.google.com/drive/folders/14x9S8bbcaDHXoWIYETQzTSz9SqkSMYNu?usp=sharing' target='_blank' className='text-center'><TbCertificate className='h-16 w-16 ml-5 text-white xl:h-16 xl:w-16 lg:h-14 lg:w-14 md:h-12 md:w-12 sm:h-11 sm:w-11 xsl:h-10 xsl:w-10 xs:h-10 xs:w-10 mb-2 xs:ml-0 '/></a></div>
