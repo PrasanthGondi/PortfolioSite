@@ -47,7 +47,7 @@ function App() {
           <a href='mailto:gprasanthchowdary@gmail.com' target='_blank' className='h-9 w-9'><SiGmail className='text-white h-8 w-8 hover:h-9 hover:w-9 xl:h-8 xl:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6'/></a>
           <a href='https://www.linkedin.com/in/prasanth-gondi-autodidact/' target='_blank' className='h-9 w-9'><BsLinkedin className='text-white h-8 w-8 hover:h-9 hover:w-9 xl:h-8 xl:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6'/></a>
           <a href='https://github.com/PrasanthGondi' target='_blank' className='h-9 w-9'><BsGithub className='text-white h-8 w-8 hover:h-9 hover:w-9 xl:h-8 xl:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6'/></a>
-          <a href='https://docs.google.com/document/d/1dkadrDXmrJcFGWhfu_qfsNTyhEBnnWrnMOjOBvO7QMw/edit?usp=sharing' target='_blank' className='h-9 w-9'><AiFillFileText className='text-white h-8 w-8 hover:h-9 hover:w-9 xl:h-8 xl:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6'/></a>
+          <a href='https://drive.google.com/file/d/1U41J1KPHVTk69pvlKqilVdghZmS90_Nb/view?usp=sharing' target='_blank' className='h-9 w-9'><AiFillFileText className='text-white h-8 w-8 hover:h-9 hover:w-9 xl:h-8 xl:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6'/></a>
         </div>
       </div>
       {/* <div className='w-full h-20 bg-gradient-to-b from-[#001822] to-[#112331]'>
