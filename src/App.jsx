@@ -34,8 +34,9 @@ function App() {
 
   return (
     <div className="w-full overflow-hidden fontclass">
-      <div className="bg-[url(https://i.imgur.com/fHdmMyl.jpg)] w-full min-h-screen overflow-hidden overflow-y-hidden bg-no-repeat bg-cover bg-center">
-        <nav className="text-[#FFFFFF] fontclass mb-[160px] xl:mb-[160px] lg:mb-[150px] md:mb-[140px] xs:mb-[120px] xm:mb-[125px] xsl:mb-[130px] sm:mb-[135px]">
+      <div className="bg-[url(https://i.imgur.com/fHdmMyl.jpg)] w-full min-h-screen sm:max-h-screen overflow-hidden overflow-y-hidden bg-no-repeat bg-cover bg-center flex flex-col justify-between">
+        {/* <nav className="text-[#FFFFFF] h-[15%] fontclass mb-[160px] xl:mb-[160px] lg:mb-[150px] md:mb-[140px] xs:mb-[120px] xm:mb-[125px] xsl:mb-[130px] sm:mb-[135px]"> */}
+        <nav className="text-[#FFFFFF] fontclass">
           <div className="flex justify-between xs:flex xs:flex-col sm:flex-row">
             <div className="text-[18px] xs:text-[22px] xm:text-[24px] xsl:text-[25px] sm:text-[26px] md:text-[28px] lg:text-[30px] xl:text-[35px] flex m-5 bg-[#DD3B58] rounded-full ml-5 pb-2.5 pl-8 pr-8 bg-opacity-50 border-4 border-[#DD3B58] xs:pl-6 xs:pr-6 xs:pb-2 xsl:pb-2.5 justify-center">
               <img
@@ -62,58 +63,59 @@ function App() {
             </ul>
           </div>
         </nav>
-        <div className="w-full mb-[280px] xl:mb-[280px] lg:mb-[250px] md:mb-[200px] sm:mb-[180px] xsl:mb-[150px] xs:mb-[130px]">
-          <h1 className="text-white text-[40px] text-center font-medium md:text-[32px] lg:text-[36px] sm:text-[35px] xsl:text-[33px] xs:text-[31px] xs:pl-1 xs:pr-1 xsl:pl-0 xsl:pr-0">
+        {/* <div className="w-full mb-[280px] xl:mb-[280px] lg:mb-[250px] md:mb-[200px] sm:mb-[180px] xsl:mb-[150px] xs:mb-[130px]"> */}
+        <div className="w-full pb-16">
+          <h1 className="text-white text-[40px] text-center font-medium md:text-[38px] lg:text-[45px] sm:text-[36px] xsl:text-[33px] xs:text-[31px] xs:pl-2 xs:pr-2 xsl:pl-1 xsl:pr-1">
             Full-Stack Web Developer
           </h1>
-          <div className="flex justify-center">
-            <MdOutlineMyLocation className="text-white w-5 h-5 mt-[25px] mr-2 xs:mt-[22px] xs:mr-1" />
-            <p className="text-white text-[20px] md:text-[19px] lg:text-[19px] sm:text-[18px] xsl:text-[17px] xs:text-[16px] font-medium mt-5">
+          <div className="flex justify-center mb-2">
+            <MdOutlineMyLocation className="text-white w-5 h-5 sm:mt-[25px] md:mt-[26px] lg:mt-[27px] mr-2 xs:mt-[22px] xs:mr-1" />
+            <p className="text-white text-[20px] md:text-[20px] lg:text-[24px] sm:text-[19px] xsl:text-[17px] xs:text-[16px] font-medium mt-5">
               Guntur, Andhra Pradesh, India
             </p>
           </div>
           <a href="mailto:gprasanthchowdary@gmail.com" target="_blank">
             <div className="text-center mt-[30px] h-10">
-              <button className="bg-[#DD3B58] p-2 pl-8 pr-8 rounded-full text-white font-medium text-[20px] md:text-[17px] lg:text-[18px] xs:text-[15px] border-2 bg-opacity-80 hover:bg-opacity-100 hover:border-4">
+              <button className="bg-[#DD3B58] p-2 pl-8 pr-8 rounded-full text-white font-medium text-[20px] md:text-[18px] lg:text-[19px] xs:text-[15px] border-2 bg-opacity-80 hover:bg-opacity-100 hover:border-4">
                 Get in Touch
               </button>
             </div>
           </a>
         </div>
-        <div className="flex justify-around w-[45%] ml-10  md:w-[30%] lg:w-[28%] xl:w-[25%] sm:w-[35%] xs:w-full xs:ml-0 sm:ml-10">
+        <div className="flex justify-around w-[45%] ml-10  md:w-[40%] lg:w-[35%] xl:w-[30%] sm:w-[45%] xs:w-full xs:ml-0 sm:ml-10 pb-10">
           <a
             href="mailto:gprasanthchowdary@gmail.com"
             target="_blank"
             className="h-9 w-9"
           >
-            <SiGmail className="text-white h-8 w-8 hover:h-9 hover:w-9 xl:h-8 xl:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6" />
+            <SiGmail className="text-white h-8 w-8 hover:h-9 hover:w-9 lg:h-8 lg:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6" />
           </a>
           <a
             href="https://www.linkedin.com/in/prasanth-gondi-autodidact/"
             target="_blank"
             className="h-9 w-9"
           >
-            <BsLinkedin className="text-white h-8 w-8 hover:h-9 hover:w-9 xl:h-8 xl:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6" />
+            <BsLinkedin className="text-white h-8 w-8 hover:h-9 hover:w-9 lg:h-8 lg:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6" />
           </a>
           <a
             href="https://github.com/PrasanthGondi"
             target="_blank"
             className="h-9 w-9"
           >
-            <BsGithub className="text-white h-8 w-8 hover:h-9 hover:w-9 xl:h-8 xl:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6" />
+            <BsGithub className="text-white h-8 w-8 hover:h-9 hover:w-9 lg:h-8 lg:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6" />
           </a>
           <a
             href="https://drive.google.com/file/d/1U41J1KPHVTk69pvlKqilVdghZmS90_Nb/view?usp=sharing"
             target="_blank"
             className="h-9 w-9"
           >
-            <AiFillFileText className="text-white h-8 w-8 hover:h-9 hover:w-9 xl:h-8 xl:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6" />
+            <AiFillFileText className="text-white h-8 w-8 hover:h-9 hover:w-9 lg:h-8 lg:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6" />
           </a>
         </div>
       </div>
       {/* <div className='w-full h-20 bg-gradient-to-b from-[#001822] to-[#112331]'>
       </div> */}
-      <div className="bg-[url(https://i.imgur.com/3WfWHFY.jpg)] w-full min-h-screen bg-no-repeat bg-cover bg-center">
+      <div className="bg-[url(https://i.imgur.com/3WfWHFY.jpg)] w-full bg-no-repeat bg-cover bg-center">
         <h1
           className="text-white text-[40px] xl:text-[40px] lg:text-[36px] md:text-[32px] sm:text-[30px] xsl:text-[28px] xm:text-[26px] xs:text-[24px] text-center font-bold pt-10 underline decoration-[#BF3711] underline-offset-8 decoration-8 xl:decoration-8 md:decoration-[6px] sm:decoration-[5px] xsl:decoration-[4px] xs:decoration-[4px]"
           id="skills"
@@ -228,11 +230,11 @@ function App() {
             target="_blank"
             className="text-center"
           >
-            <TbCertificate className="h-16 w-16 ml-5 text-white xl:h-16 xl:w-16 lg:h-14 lg:w-14 md:h-12 md:w-12 sm:h-11 sm:w-11 xsl:h-10 xsl:w-10 xs:h-10 xs:w-10 mb-2 xs:ml-0 " />
+            <TbCertificate className="h-16 w-16 ml-5 text-white xl:h-16 xl:w-16 lg:h-14 lg:w-14 md:h-12 md:w-12 sm:h-11 sm:w-11 xsl:h-10 xsl:w-10 xs:h-10 xs:w-10 mb-5 sm:mb-8 xs:ml-0 " />
           </a>
         </div>
       </div>
-      <div className="bg-[url(https://i.imgur.com/C1TwZoy.jpg)] w-full min-h-screen bg-no-repeat bg-cover bg-center">
+      <div className="bg-[url(https://i.imgur.com/C1TwZoy.jpg)] w-full bg-no-repeat bg-cover bg-center">
         <h1
           className="text-white text-[40px] xl:text-[40px] lg:text-[36px] md:text-[32px] sm:text-[30px] xsl:text-[28px] xm:text-[26px] xs:text-[25px] text-center font-bold pt-5 underline decoration-[#E93438] underline-offset-8 decoration-8 xl:decoration-8 md:decoration-[6px] xs:decoration-[4px]"
           id="projects"
@@ -315,7 +317,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-[url(https://i.imgur.com/4bEjZnJ.jpg)] w-full min-h-screen bg-no-repeat bg-cover bg-center">
+      <div className="bg-[url(https://i.imgur.com/4bEjZnJ.jpg)] w-full bg-no-repeat bg-cover bg-center">
         <div className="h-10"></div>
         <div className="text-white bg-[black] rounded-2xl ml-5 w-[60%] xl:w-[60%] lg:w-[68%] md:w-[75%] xs:w-[90%] font-medium p-5 bg-opacity-25">
           <div className="flex">
