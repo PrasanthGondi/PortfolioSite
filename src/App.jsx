@@ -103,7 +103,7 @@ function App() {
             <SiGmail className="text-white h-8 w-8 hover:h-9 hover:w-9 lg:h-8 lg:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6" />
           </a>
           <a
-            href="https://www.linkedin.com/in/prasanth-gondi-autodidact/"
+            href="https://www.linkedin.com/in/prasanth-gondi-web-developer/"
             target="_blank"
             className="h-9 w-9"
           >
