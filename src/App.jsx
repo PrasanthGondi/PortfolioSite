@@ -13,7 +13,14 @@ import {
   SiGmail,
   SiTypescript,
   SiJavascript,
+  SiMysql,
+  SiCssmodules,
+  SiJest,
+  SiTestinglibrary,
+  SiStyledcomponents,
+  SiReactquery,
   SiCss3,
+  SiMui,
   SiPython,
   SiExpress,
   SiSqlite,
@@ -21,10 +28,15 @@ import {
   SiContentful,
   SiAntdesign,
   SiOpenai,
+  SiNextdotjs,
   SiTailwindcss,
 } from "react-icons/si";
 import { GrReactjs, GrGraphQl, GrGoogle } from "react-icons/gr";
-import { TbBrandTailwind, TbCertificate } from "react-icons/tb";
+import {
+  TbBrandTailwind,
+  TbCertificate,
+  TbBrandReactNative,
+} from "react-icons/tb";
 import { FaNode, FaBootstrap } from "react-icons/fa";
 import { TfiHtml5 } from "react-icons/tfi";
 import { AiFillFileText, AiFillEye } from "react-icons/ai";
@@ -124,6 +136,18 @@ function App() {
         </h1>
         <ul className="flex flex-wrap ml-14 mt-28 xl:mt-28 lg:mt-26 md:mt-24 sm:mt-22 xsl:mt-18 xm:mt-15 xs:mt-12 justify-center items-center font-medium xs:ml-6 xs:flex xs:flex-nowrap xs:flex-col sm:flex-row sm:flex-wrap xs:justify-center xs:items-center sm:ml-14">
           <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
+            <SiNextdotjs className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
+            <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
+              Next.js
+            </h1>
+          </li>
+          <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
+            <TbBrandReactNative className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
+            <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
+              React Native
+            </h1>
+          </li>
+          <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
             <SiTypescript className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
             <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
               TypeScript
@@ -172,6 +196,12 @@ function App() {
             </h1>
           </li>
           <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
+            <SiMysql className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:h-8 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
+            <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
+              MySQL
+            </h1>
+          </li>
+          <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
             <SiSqlite className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:h-8 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
             <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
               SQLite
@@ -184,9 +214,45 @@ function App() {
             </h1>
           </li>
           <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
+            <SiReactquery className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
+            <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
+              React Query
+            </h1>
+          </li>
+          <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
+            <SiJest className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
+            <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
+              Jest
+            </h1>
+          </li>
+          <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
+            <SiTestinglibrary className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
+            <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
+              React Testing Library
+            </h1>
+          </li>
+          <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
             <SiAntdesign className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:h-8 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
             <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
               Ant Design
+            </h1>
+          </li>
+          <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
+            <SiMui className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:h-8 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
+            <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
+              Material UI
+            </h1>
+          </li>
+          <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
+            <SiStyledcomponents className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:h-8 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
+            <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
+              Styled Components
+            </h1>
+          </li>
+          <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
+            <SiCssmodules className="mr-3 h-10 w-10 xl:h-10 xl:w-10 lg:h-9 lg:w-9 md:h-8 md:w-8 sm:h-8 sm:w-8 xsl:h-7 xsl:w-7 xm:h-6 xm:w-6 xs:h-6 xs:w-6 xs:mt-1" />
+            <h1 className="text-[28px] xl:text-[28px] lg:text-[26px] md:text-[24px] sm:text-[23px] xsl:text-[22px] xm:text-[21px] xs:text-[20px]">
+              CSS Modules
             </h1>
           </li>
           <li className="flex text-white mr-10 mb-32 xl:mb-32 lg:mb-28 md:mb-24 sm:mb-22 xsl:mb-18 xm:mb-15 xs:mb-12">
@@ -389,6 +455,104 @@ function App() {
               <li className="mb-3 mt-2">TypeScript</li>
               <li className="mb-3">GraphQL</li>
             </ul>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[url(https://i.imgur.com/jCqqFhO.jpg)] w-full bg-no-repeat bg-cover bg-center">
+        <h1
+          className="text-white text-[40px] xl:text-[40px] lg:text-[36px] md:text-[32px] sm:text-[30px] xsl:text-[28px] xm:text-[26px] xs:text-[25px] text-center font-bold pt-5 underline decoration-[#FE546B] underline-offset-8 decoration-8 xl:decoration-8 md:decoration-[6px] xs:decoration-[4px]"
+          id="projects"
+        >
+          Side Projects
+        </h1>
+        <div>
+          <div className="text-white bg-[#AF0145] rounded-2xl mt-5 ml-5 w-[60%] xl:w-[76%] lg:w-[68%] md:w-[75%] xs:w-[90%] font-medium p-5 pt-3 bg-opacity-50">
+            {/* <div className="text-white bg-black rounded-2xl mt-5 ml-5 w-[60%] xl:w-[70%] lg:w-[72%] md:w-[78%] xs:w-[95%] font-medium p-5 pt-3 bg-opacity-25"> */}
+            <div className="flex">
+              <h1 className="text-[25px] xl:text-[25px] lg:text-[23px] md:text-[20px] sm:text-[19px] xsl:text-[18px] xs:text-[17px] mb-3 underline decoration-[#028B9A] underline-offset-8 decoration-4">
+                Meme-O-Quiz
+              </h1>
+              <a href="https://meme-o-quiz.vercel.app/" target="_blank">
+                <BsArrowUpRight className="h-5 w-5 mt-2.5 ml-2 xs:mt-1 xsl:mt-1 sm:mt-1 md:mt-1.5 lg:mt-2 xl:mt-2.5" />
+              </a>
+            </div>
+            <p className="text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-4">
+              A Meme Based Quiz App [ MVP Phase ]
+            </p>
+            <div className="flex xs:flex-col xl:flex-row">
+              <div className="flex flex-col mr-20">
+                <p className="text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#028B9A] underline-offset-8 decoration-4">
+                  Features:
+                </p>
+                <ul className="text-[18px] xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] xsl:text-[14px] xs:text-[13px] list-disc pl-5 mb-2">
+                  <li className="mb-3">
+                    Meme reply for every Answer ( Available - MVP )
+                  </li>
+                  <li className="mb-3">More Levels & More Languages Support</li>
+                  <li className="mb-3">
+                    Ability to select different Genres of videos
+                  </li>
+                  <li className="mb-3">Videos based on age and gender</li>
+                  <li className="mb-3">Custom Quizzes</li>
+                </ul>
+              </div>
+              <div className="flex flex-col mr-20">
+                <p className="text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#028B9A] underline-offset-8 decoration-4">
+                  Built using:{" "}
+                </p>
+                <ul className="text-[18px] xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] xsl:text-[14px] xs:text-[13px] list-disc pl-5 mb-2">
+                  <li className="mb-3">NextJS</li>
+                  <li className="mb-3">Ant Design</li>
+                  <li className="mb-3">Tailwind CSS</li>
+                </ul>
+              </div>
+              <div className="flex flex-col">
+                <p className="text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#028B9A] underline-offset-8 decoration-4">
+                  Next on the Roadmap:
+                </p>
+                <ul className="text-[18px] xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] xsl:text-[14px] xs:text-[13px] list-disc pl-5 mb-2">
+                  <li className="mb-3">Mobile Apps ( React Native )</li>
+                  <li className="mb-3">Desktop Apps ( Electron )</li>
+                  <li className="mb-3">PWA</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="w-full flex justify-end xs:justify-center sm:justify-end pr-5 pb-5">
+            {/* <div className="text-white bg-[#AF0145] rounded-2xl mt-5 ml-5 w-[60%] xl:w-[60%] lg:w-[68%] md:w-[75%] xs:w-[90%] font-medium p-5 pt-3 bg-opacity-50"> */}
+            <div className="text-white bg-black rounded-2xl mt-5 ml-5 w-[60%] xl:w-[60%] lg:w-[68%] md:w-[75%] xs:w-[90%] font-medium p-5 pt-3 bg-opacity-25">
+              <div className="flex">
+                <h1 className="text-[25px] xl:text-[25px] lg:text-[23px] md:text-[20px] sm:text-[19px] xsl:text-[18px] xs:text-[17px] mb-3 underline decoration-[#FE546B] underline-offset-8 decoration-4">
+                  Sleepy Dial
+                </h1>
+                <a
+                  href="https://docs.google.com/document/d/1zKNauZH551Q3e0rrJXIwuGGKuNbZJ3_Dm8L8-OiPlqU/edit?usp=sharing"
+                  target="_blank"
+                >
+                  <BsArrowUpRight className="h-5 w-5 mt-2.5 ml-2 xs:mt-1 xsl:mt-1 sm:mt-1 md:mt-1.5 lg:mt-2 xl:mt-2.5" />
+                </a>
+              </div>
+              <p className="text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#FE546B] underline-offset-8 decoration-4">
+                Features:
+              </p>
+              <ul className="text-[18px] xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] xsl:text-[14px] xs:text-[13px] list-disc mb-2 flex flex-wrap justify-around xs:flex xs:flex-col xs:flex-nowrap xl:flex-row xl:flex-wrap xs:pl-5 xs:pt-2 xl:pl-0 xl:pt-0">
+                <li className="mb-3">Auto Call Answer</li>
+                <li className="mb-3">Auto Messages to Missed Calls</li>
+                <li className="mb-3">Safety Net for Emergency Calls</li>
+              </ul>
+              <p className="text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#FE546B] underline-offset-8 decoration-4">
+                To be built using:{" "}
+              </p>
+              <ul className="text-[18px] list-none xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] xsl:text-[14px] xs:text-[13px] pl-5 mb-2  flex flex-wrap xs:flex xs:flex-col xs:flex-nowrap sm:flex-row sm:flex-wrap xs:pl-5 xs:pt-2 sm:pl-0 sm:pt-0">
+                <li className="mb-3">React Native</li>
+              </ul>
+              <p className="text-[20px] xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] xsl:text-[16px] xs:text-[15px] mb-2 underline decoration-[#FE546B] underline-offset-8 decoration-4">
+                Phase:
+              </p>
+              <ul className="text-[18px] list-none xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] xsl:text-[14px] xs:text-[13px] pl-20 mb-2  flex flex-wrap xs:flex xs:flex-col xs:flex-nowrap sm:flex-row sm:flex-wrap xs:pl-5 xs:pt-2 sm:pl-0 sm:pt-0">
+                <li className="mb-3">Ideation</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
