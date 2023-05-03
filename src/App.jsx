@@ -117,7 +117,7 @@ function App() {
             <BsGithub className="text-white h-8 w-8 hover:h-9 hover:w-9 lg:h-8 lg:w-8 md:w-7 md:h-7 xs:w-6 xs:h-6" />
           </a>
           <a
-            href="https://drive.google.com/file/d/15GxYfcIadMZxdv5oL6GOJnf-lwzfVW5k/view?usp=sharing"
+            href="https://drive.google.com/file/d/1AJJekpVGmONS69DPXuQVWF0o2RVRXUG3/view?usp=sharing"
             target="_blank"
             className="h-9 w-9"
           >
