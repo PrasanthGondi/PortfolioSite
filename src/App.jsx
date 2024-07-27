@@ -46,13 +46,13 @@ function App() {
 
   return (
     <div className="w-full overflow-hidden fontclass">
-      <div className="bg-[url(https://i.imgur.com/fHdmMyl.jpg)] w-full min-h-screen sm:max-h-screen overflow-hidden overflow-y-hidden bg-no-repeat bg-cover bg-center flex flex-col justify-between">
+      <div className="bg-[url(./image1.jpg)] w-full min-h-screen sm:max-h-screen overflow-hidden overflow-y-hidden bg-no-repeat bg-cover bg-center flex flex-col justify-between">
         {/* <nav className="text-[#FFFFFF] h-[15%] fontclass mb-[160px] xl:mb-[160px] lg:mb-[150px] md:mb-[140px] xs:mb-[120px] xm:mb-[125px] xsl:mb-[130px] sm:mb-[135px]"> */}
         <nav className="text-[#FFFFFF] fontclass">
           <div className="flex justify-between xs:flex xs:flex-col sm:flex-row">
             <div className="text-[18px] xs:text-[22px] xm:text-[24px] xsl:text-[25px] sm:text-[26px] md:text-[28px] lg:text-[30px] xl:text-[35px] flex m-5 bg-[#DD3B58] rounded-full ml-5 pb-2.5 pl-8 pr-8 bg-opacity-50 border-4 border-[#DD3B58] xs:pl-6 xs:pr-6 xs:pb-2 xsl:pb-2.5 justify-center">
               <img
-                src="https://media.discordapp.net/attachments/990816866618470440/1074205369682907166/301803637_506902801440735_987699678916294777_n-removebg-preview.png"
+                src="./logo.png"
                 className="w-10 h-10 mt-[12px] xs:w-8 xs:h-8 xl:w-10 xl:h-10 md:h-9 md:w-9 md:mt-[11px] xl:mt-[12px] xs:mt-[7px] xm:mt-[8px] xsl:mt-[9px] sm:mt-[10px]"
               />
               <h1 className="mt-1 ml-1.5 xs:font-medium sm:font-normal xs:mt-1.5 sm:mt-1.5">
@@ -127,7 +127,7 @@ function App() {
       </div>
       {/* <div className='w-full h-20 bg-gradient-to-b from-[#001822] to-[#112331]'>
       </div> */}
-      <div className="bg-[url(https://i.imgur.com/3WfWHFY.jpg)] w-full bg-no-repeat bg-cover bg-center">
+      <div className="bg-[url(./image2.jpg)] w-full bg-no-repeat bg-cover bg-center">
         <h1
           className="text-white text-[40px] xl:text-[40px] lg:text-[36px] md:text-[32px] sm:text-[30px] xsl:text-[28px] xm:text-[26px] xs:text-[24px] text-center font-bold pt-10 underline decoration-[#BF3711] underline-offset-8 decoration-8 xl:decoration-8 md:decoration-[6px] sm:decoration-[5px] xsl:decoration-[4px] xs:decoration-[4px]"
           id="skills"
@@ -300,7 +300,7 @@ function App() {
           </a>
         </div>
       </div>
-      <div className="bg-[url(https://i.imgur.com/C1TwZoy.jpg)] w-full bg-no-repeat bg-cover bg-center">
+      <div className="bg-[url(./image3.jpg)] w-full bg-no-repeat bg-cover bg-center">
         <h1
           className="text-white text-[40px] xl:text-[40px] lg:text-[36px] md:text-[32px] sm:text-[30px] xsl:text-[28px] xm:text-[26px] xs:text-[25px] text-center font-bold pt-5 underline decoration-[#E93438] underline-offset-8 decoration-8 xl:decoration-8 md:decoration-[6px] xs:decoration-[4px]"
           id="projects"
@@ -383,7 +383,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-[url(https://i.imgur.com/4bEjZnJ.jpg)] w-full bg-no-repeat bg-cover bg-center">
+      <div className="bg-[url(./image4.jpg)] w-full bg-no-repeat bg-cover bg-center">
         <div className="h-10"></div>
         <div className="text-white bg-[black] rounded-2xl ml-5 w-[60%] xl:w-[60%] lg:w-[68%] md:w-[75%] xs:w-[90%] font-medium p-5 bg-opacity-25">
           <div className="flex">
@@ -458,7 +458,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-[url(https://i.imgur.com/jCqqFhO.jpg)] w-full bg-no-repeat bg-cover bg-center">
+      <div className="bg-[url(./image5.jpg)] w-full bg-no-repeat bg-cover bg-center">
         <h1
           className="text-white text-[40px] xl:text-[40px] lg:text-[36px] md:text-[32px] sm:text-[30px] xsl:text-[28px] xm:text-[26px] xs:text-[25px] text-center font-bold pt-5 underline decoration-[#FE546B] underline-offset-8 decoration-8 xl:decoration-8 md:decoration-[6px] xs:decoration-[4px]"
           id="projects"
@@ -556,13 +556,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-[url(https://i.imgur.com/9IZUHtl.jpg)] w-full min-h-screen flex justify-center items-center bg-no-repeat bg-cover bg-center">
+      <div className="bg-[url(./image6.jpg)] w-full min-h-screen flex justify-center items-center bg-no-repeat bg-cover bg-center">
         <div className="flex justify-center items-center xs:w-[80%] sm:w-full xs:flex-col sm:flex-row">
           <h1 className="text-white text-[40px] xl:text-[40px] lg:text-[35px] md:text-[30px] sm:text-[28px] xsl:text-[25px] xs:text-[23px] text-center font-medium">
             Inspired from the StarWars Binary Sunset
           </h1>
           <img
-            src="https://media.discordapp.net/attachments/990816866618470440/1074205369682907166/301803637_506902801440735_987699678916294777_n-removebg-preview.png"
+            src="./logo.png"
             className="w-10 h-10 mt-[2px] ml-2 xl:mt-[2px]"
           />
         </div>
